@@ -12,3 +12,4 @@ target/
 *.1
 *.man
 attendtrack-landing/
+src/main/resources/application.properties
