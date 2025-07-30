@@ -1,0 +1,19 @@
+{
+  "name": "teamtrackapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "expo": "^53.0.20"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "@types/react": "~19.0.10"
+  }
+}
