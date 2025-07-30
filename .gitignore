@@ -2,3 +2,12 @@ node_modules/
 teamtrackapp/node_modules/
 teamtrackweb/node_modules/
 */node_modules/
+# Ignore documentation and build artifacts
+mvnw
+mvnw.cmd
+*.roff
+**/*.roff
+docs/
+target/
+*.1
+*.man
