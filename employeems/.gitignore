@@ -1,6 +1,9 @@
+# Ignore help and generated target folders
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+src/main/resources/application.properties
+
+# Do not ignore target under source folders
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -30,9 +33,25 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/mvnw
+.vscode/
+
+### Maven wrapper ###
+mvnw
 mvnw.cmd
+
+### Roff / Docs ###
 *.roff
 **/*.roff
 docs/
-target/
+
+### Logs ###
+*.log
+logs/
+
+### Other ###
+*.class
+*.jar
+*.war
+*.ear
+.DS_Store
+Thumbs.db
