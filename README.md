@@ -1,4 +1,4 @@
-# TeamTrack - Employee Management System
+# TeamTrack - Attendance and Task Management App / Web
 
 TeamTrack is a web-based Employee Management System built using Spring Boot. It offers secure authentication using Google OAuth2 and token-based access using JWT. The platform helps admins manage employee data, attendance, and geo-settings.
 
